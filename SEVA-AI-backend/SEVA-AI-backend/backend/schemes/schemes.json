@@ -1,0 +1,135 @@
+[
+  {
+    "scheme_id": "SCHEME001",
+    "scheme_name": "Demo Farmer Support Scheme",
+    "category": "Agriculture",
+    "description": "Financial support for eligible farmers.",
+    "benefit": "Financial assistance",
+
+    "eligibility": {
+      "min_age": 18,
+      "max_age": null,
+      "occupation": ["farmer"],
+      "max_income": 300000,
+      "states": ["Karnataka"]
+    },
+
+    "keywords": [
+    "farmer",
+    "farming",
+    "agriculture",
+    "crop",
+    "crops",
+    "crop damage",
+    "crop loss",
+    "rain",
+    "heavy rain",
+    "flood",
+    "flood damage",
+    "financial support",
+    "agricultural loss"
+],
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Land Record"
+    ]
+  },
+
+  {
+    "scheme_id": "SCHEME002",
+    "scheme_name": "Demo Women Entrepreneurship Scheme",
+    "category": "Employment",
+    "description": "Support for women starting or expanding small businesses.",
+    "benefit": "Business development assistance",
+
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 60,
+      "occupation": ["entrepreneur", "self-employed"],
+      "max_income": 500000,
+      "states": ["Karnataka"]
+    },
+
+    "keywords": [
+      "woman",
+      "women",
+      "business",
+      "entrepreneur",
+      "startup",
+      "self employment",
+      "employment"
+    ],
+
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Bank Account",
+      "Business Proof"
+    ]
+  },
+
+  {
+    "scheme_id": "SCHEME003",
+    "scheme_name": "Demo Student Education Scheme",
+    "category": "Education",
+    "description": "Educational financial assistance for eligible students.",
+    "benefit": "Education support",
+
+    "eligibility": {
+      "min_age": 16,
+      "max_age": 30,
+      "occupation": ["student"],
+      "max_income": 400000,
+      "states": ["Karnataka"]
+    },
+
+    "keywords": [
+      "student",
+      "education",
+      "college",
+      "school",
+      "scholarship",
+      "fees"
+    ],
+
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Student ID",
+      "Bank Account"
+    ]
+  },
+
+  {
+    "scheme_id": "SCHEME004",
+    "scheme_name": "Demo Housing Assistance Scheme",
+    "category": "Housing",
+    "description": "Housing assistance for eligible low-income families.",
+    "benefit": "Housing assistance",
+
+    "eligibility": {
+      "min_age": 18,
+      "max_age": null,
+      "occupation": ["farmer", "worker", "self-employed"],
+      "max_income": 250000,
+      "states": ["Karnataka"]
+    },
+
+   "keywords": [
+    "house",
+    "housing",
+    "home",
+    "construction",
+    "repair",
+    "housing assistance"
+],
+
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Address Proof",
+      "Land Record"
+    ]
+  }
+]
