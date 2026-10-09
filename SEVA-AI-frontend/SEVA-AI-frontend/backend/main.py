@@ -4,6 +4,7 @@ from eligibility.matcher import match_schemes
 from documents.verify import verify_document
 from documents.ocr import extract_text, extract_data
 from documents.checklist import get_document_checklist
+from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI(
     title="SEVA AI",
     description="AI-powered government benefits navigator",
